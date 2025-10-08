@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  apache:
+    image: vagrant-apache
+    deploy:
+      replicas: 12
+      placement:
+        max_replicas_per_node: 3
+    ports:
+      - "8080:80"
+    volumes:
+      - apache-data:/usr/local/apache2/htdocs
+
+volumes:
+  apache-data:
