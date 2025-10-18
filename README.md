@@ -40,8 +40,8 @@ Neste desafio, aplicamos conhecimentos de **Vagrant**, **Docker** e **Swarm** pa
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/Ale-Calassa/Formulario-Coleta-de-Dados-Vendas.git
-   cd Formulario-Coleta-de-Dados-Vendas
+   git clone https://github.com/Ale-Calassa/dio-proj-cluster-vagrant-docker.git
+   cd dio-proj-cluster-vagrant-docker
 2. Execute o ambiente:
    - vagrant up
 
